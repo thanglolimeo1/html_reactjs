@@ -1,0 +1,16 @@
+0968667361 - Black 
+1.h1,h2,h3,h4,h5,h6
+2.p,span,b
+3.Table,Thead,tr,th,td
+4.Div(class,id)
+5.a(href,target = "_blank")
+6.strong,b,ul,li,ol
+7.article,section,video,header,footer
+https://timoday.edu.vn/tong-hop-cac-the-trong-html/
+8.nav
+
+HW: 1.Tìm hiểu về  html,làm sample
+2.3 cách css vào html 
+W:980px;
+h:800px;
+

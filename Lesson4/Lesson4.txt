@@ -1,0 +1,44 @@
+1.DOM - HTML
+Vitual DOM : DOM ảo
+-Button 
+	+onClick
+	+Onmouse:Khi chuột nằm trên button
+	+Onover:khi chuột bỏ ra khỏi button
+	+Onchange : Dùng trong input form
++onchange	An HTML element has been changed
++onclick	The user clicks an HTML element
++onmouseover	The user moves the mouse over an HTML element
++onmouseout	The user moves the mouse away from an HTML element
++onkeydown	The user pushes a keyboard key
++onload	        The browser has finished loading the page
+
+
+Git : 
+cd :
+ls : show foder con trong đó
+$ls
+index.html
+Thoát esc + shift + wq !
+
+$git status
+On branch master
+
+$git add . : khi chắc chẵn nội dung thay đổi chỉ 1 mình
+$ git commit -m "Initial commit"
+
+$ git push -u
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
