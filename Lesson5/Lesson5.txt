@@ -1,0 +1,101 @@
+Alert("String"); 
+Console.log ("Array"); //Debug mảng
+
+Biến :
++var Tên biến : Global,sử dụng trong tất cả function
++let Tên biến :Biến cục bộ,syntax ES6
+
+Hằng :
+	+String : chuỗi - bọc bằng ""	
+	+Int 
+	+Boolean : True/False
+
+Toán tử :
+	+So sánh : 
+		== : so sánh 2 giá trị không cùng kiểu dữ liệu
+		=== : So sánh cùng kiểu dữ liệu với nhau
+
+	+And :&&
+	+OR :||
+
+Array
+	+let Tên mảng = ('a,b,.....');
+Contructor :Dùng khai báo 1 object or 1 function để gọi đến nói
+	+This : con trỏ
+
+
+HOANGTHANG-PC@DESKTOP-MMA0MK9 MINGW64 ~/Desktop/ReactJS/FrontEnd T3H/VSCode-win32-x64-1.50.1/Reactjs (leeson4)
+$ git init
+Initialized empty Git repository in C:/Users/HOANGTHANG-PC/Desktop/ReactJS/FrontEnd T3H/VSCode-win32-x64-1.50.1/Reactjs/.git/
+
+HOANGTHANG-PC@DESKTOP-MMA0MK9 MINGW64 ~/Desktop/ReactJS/FrontEnd T3H/VSCode-win32-x64-1.50.1/Reactjs (master)
+$ git remote add origin https://github.com/thanglolimeo1/html_reactjs.git
+
+HOANGTHANG-PC@DESKTOP-MMA0MK9 MINGW64 ~/Desktop/ReactJS/FrontEnd T3H/VSCode-win32-x64-1.50.1/Reactjs (master)
+$ git remote -v
+origin  https://github.com/thanglolimeo1/html_reactjs.git (fetch)
+origin  https://github.com/thanglolimeo1/html_reactjs.git (push)
+
+HOANGTHANG-PC@DESKTOP-MMA0MK9 MINGW64 ~/Desktop/ReactJS/FrontEnd T3H/VSCode-win32-x64-1.50.1/Reactjs (master)
+$ git add .
+warning: adding embedded git repository: Lesson3/Homework
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> Lesson3/Homework
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached Lesson3/Homework
+hint:
+hint: See "git help submodule" for more information.
+warning: LF will be replaced by CRLF in Lesson4/css/bootstrap.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Lesson4/debug.log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Lesson4/js/bootstrap.bundle.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Lesson4/js/jquery-3.5.1.slim.min.js.
+The file will have its original line endings in your working directory
+
+HOANGTHANG-PC@DESKTOP-MMA0MK9 MINGW64 ~/Desktop/ReactJS/FrontEnd T3H/VSCode-win32-x64-1.50.1/Reactjs (master)
+$ git commit -m"initial commit "
+[master (root-commit) 576b5cb] initial commit
+ 19 files changed, 523 insertions(+)
+ create mode 100644 Lesson1/Ex01.html
+ create mode 100644 Lesson1/Ex02.html
+ create mode 100644 Lesson2/Ex01.html
+ create mode 100644 Lesson2/Lesson2.txt
+ create mode 100644 Lesson2/style.css
+ create mode 100644 Lesson3/Chapter1/1a.jpg
+ create mode 100644 Lesson3/Chapter1/Ex01.html
+ create mode 100644 Lesson3/Chapter1/Ex02.html
+ create mode 100644 Lesson3/Chapter1/style.css
+ create mode 160000 Lesson3/Homework
+ create mode 100644 Lesson4/Ex01.html
+ create mode 100644 Lesson4/Lesson4.txt
+ create mode 100644 Lesson4/css/bootstrap.min.css
+ create mode 100644 Lesson4/debug.log
+ create mode 100644 Lesson4/js/bootstrap.bundle.min.js
+ create mode 100644 Lesson4/js/jquery-3.5.1.slim.min.js
+ create mode 100644 Lesson5/Ex01.html
+ create mode 100644 Lesson5/Ex02.html
+ create mode 100644 Lesson5/js/scrip.js
+
+HOANGTHANG-PC@DESKTOP-MMA0MK9 MINGW64 ~/Desktop/ReactJS/FrontEnd T3H/VSCode-win32-x64-1.50.1/Reactjs (master)
+$ git push origin master
+Enumerating objects: 29, done.
+Counting objects: 100% (29/29), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (25/25), done.
+Writing objects: 100% (29/29), 166.68 KiB | 2.92 MiB/s, done.
+Total 29 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/thanglolimeo1/html_reactjs.git
+ * [new branch]      master -> master
+
+HOANGTHANG-PC@DESKTOP-MMA0MK9 MINGW64 ~/Desktop/ReactJS/FrontEnd T3H/VSCode-win32-x64-1.50.1/Reactjs (master)
+$
+
