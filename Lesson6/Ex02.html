@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <button type="button" onclick="myfunction()">Click here</button>
+    <button type="button" onclick="Swithfunction()">Click</button>
+    <button type="button" onclick="Test3()">Test_Biến</button>
+    <script>
+        //CÂU LỆNH ĐIỀU KIỆN
+        //if-else
+        function myfunction() {
+            let age = 40;
+            if (age == 25) {
+                alert("ok");
+            } else if (age == 35) { // Hoặc bằng
+                alert("false size if");
+            } else { //nếu không bằng hoặc bằng
+                alert("size false");
+            }
+
+        }
+
+
+        //switch-case
+        function Swithfunction() {
+            var number = parseInt(prompt("Nhập số cần kiểm tra"));
+            var mod = (number % 2);
+            switch (mod) {
+                case 0: {
+                    document.write(number + " là số chẵn");
+                    break;
+                }
+                case 1: {
+                    document.write(number + " là số lẽ");
+                    break;
+                }
+                default: {
+                    document.write("Ký tự bạn nhập không phải số");
+                }
+            }
+        }
+        //Biến toàn cục & Biến cục bộ
+        // let Hello = "Hello World";
+        function Test3(){
+            let Hello = "Hello World";
+            alert(Hello);    
+        }
+
+        function hello(){
+            alert("ok");
+        }
+        function Test3(){
+            setTimeout(function(){
+                hello()
+            })
+        }
+        
+        //Vòng lặp For
+        function myfunction(){
+            for(let i =1;i <=10;i++){
+                alert(i);
+            }
+        }
+
+
+    </script>
+
+</body>
+
+</html>
