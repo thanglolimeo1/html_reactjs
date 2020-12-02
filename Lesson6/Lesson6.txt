@@ -1,0 +1,28 @@
++Alert() : In một thông báo popup
+#Confirm() : Dùng khi hỏi lại việc xóa,hoặc thoát khỏi chương trình !!nhưng nó có thêm hai sự lựa chọn là Yes và No
+#Prompt(): lấy thông tin từ người dùng, gồm có hai tham số truyền vào là nội dung thông báo và giá trị ban đầu
+
+
+#Lệnh kiểm tra điều kiện :
+	-If-else
+
+	-Swith -case
+	
+	-For :
+		Example 2:
+		Let A = [táo,cam,xoài,chuối,...]
+		hiển thị danh sách,có tiêu đề như trên
+		#Sử dụng vòng For & For-If : 	+Duyệt mảng khi biết trước số kí tự đầu vào bao nhiêu phần tử ,giá trị tăng dần : For
+			+Mảng k biết trước có bao nhiêu kí tự dùng : For-If
+*{Example !!!
+-Document.getElementsbyID.value
+a.lenght > 10 alert :Quá
+a.lenght <10 aler : OK
+}
+
+#Biến toàn cục & biến cục bộ
+	+Biến toàn cục : Khai báo bên trên funtion
+	+Biến cục bộ :Khai báo trong function và chỉ sử dụng trong funtion đó
+#Set timeout
+
+
