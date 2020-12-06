@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>Ex01</p>
+    <p>Tổng các phần tử trong mảng là : <span id="sum" style="color: red;"></span></p>
+    <hr>
+    <p>Ex02</p>
+    <h1 id="dom">Hello</h1>
+    <button onclick="ChangeText()">Change Text</button>
+    <button onclick="ChangeColor()">Change Color</button>
+    <button onclick="ChangeTag()">Change Tag</button>
+
+    <script>
+        //Ex01
+        let arrNum = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+        let sum = 0;
+        arrNum.forEach(myFunction = (i) => {
+            sum += i;
+            document.getElementById("sum").innerHTML = sum;
+        });
+
+        //Ex02
+        ChangeText = () => {
+            //Thay text Hello thành Hello2
+            document.getElementById("dom").innerHTML = "Hello2";
+        }
+
+        ChangeColor = () => {
+            //Thay màu chữ 
+            document.getElementById("dom").style.color = "green";
+        }
+
+        ChangeTag = () => {
+            //Thay thẻ tag h1 thành tag h2
+            document.getElementById("dom").outerHTML = '<h2> Hello </h2>';
+
+        }
+
+    </script>
+</body>
+
+</html>

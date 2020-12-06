@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" name="inp_name2" id="inp_name" class="inp_name">
+    <p id="inter_html">Hello</p>
+    <button onclick="showDOM()">Send</button>
+    <script>
+        showDOM =() =>{
+            //DOM Elements
+            let InputValueId = document.getElementById('inp_name').value;
+            let InputValueName = document.getElementsByName('inp_name2')[0].value;
+            let InputValueClass = document.getElementsByClassName('inp_name')[0].value;
+
+            // // console.log(InputValueName);
+            // console.log(InputValueClass);
+
+            // //DOM HTML
+            // document.getElementById('inter_html').innerHTML = InputValueId;
+            // //Lấy Text trong HTML
+            // document.getElementById('inter_html').innerHTML;
+
+            // //DOM CSS - khi click vaof button muốn thay đổi style của thẻ HTML
+            // document.getElementById('inter_html').style.color ="red"
+            // document.getElementById('inter_html').style.backgroundColor ="green";
+
+            //Outer
+            let outer = document.getElementById('inter_html');
+            outer.outerHTML = '<h6>Heloo</h6>';
+
+        }
+    </script>
+</body>
+</html>
