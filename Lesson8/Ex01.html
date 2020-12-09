@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js String</title>
+    <script src="js/moment-with-locales.js"></script>
+    <script src="js/moment.js"></script>
+</head>
+<body>
+    <h1 id="StringNew">String</h1>
+    <script>
+        //xử lý chuỗi
+        let Hello = 'Hello Hoang Van Thang';
+        let classReactjs = 'Wellcome to class Reactjs';
+        let numberString = 456;
+        let stringToNumber = '456';
+
+        //Tìm kiếm chuỗi : indexOf()
+        let searchTextString = Hello.indexOf("Van");
+        console.log(searchTextString + "Vị trí trong chuỗi ");
+
+        // //cắt chuỗi : split()
+        let SplitString  = Hello.split("Hello");
+        document.getElementById("StringNew").innerHTML = SplitString;
+
+        // nối chuỗi : + 
+        let newString = Hello + classReactjs;
+        console.log(newString);
+        
+        // chuyển số qua chuỗi : ToString()
+        let convertIntToString = numberString.toString();
+        console.log(convertIntToString + "" +"Chuyển số qua chuỗi !");
+        
+        // chuyển chuỗi qua integer : ParseInt();
+        let convertStringToInteger = parseInt(stringToNumber);
+        console.log(convertStringToInteger);
+
+        //Các hàm xử lý ngày tháng 
+        let dateNow = new Date();
+        console.log("Ngày Tháng Năm hiện tại là : " + dateNow);
+
+        //Moment
+        console.log("Ngày Tháng Năm là : " + moment().subtract(10,"days").format("DD-MM-YYYY"));
+    </script>
+</body>
+</html>
